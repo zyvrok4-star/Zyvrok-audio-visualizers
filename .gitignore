@@ -1,0 +1,33 @@
+# --- Secrets & personal files (never upload) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.vscode/
+.idea/
+config/local/
+*.local
+
+# --- Blender ---
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+*.pyc
+
+# --- Renders & big media ---
+renders/
+*.mp4
+*.mov
+*.mkv
+*.exr
+*.wav
+*.mp3
+*.flac
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
